@@ -4,7 +4,8 @@ public class Employee {
     private String lastName;
     private int department;
     private int salary;
-    private int id;
+    private static int id;
+    private static int idCounter;
 
     public Employee(String firstName, String middleName, String lastName, int department, int salary) {
         this.firstName = firstName;
@@ -12,6 +13,11 @@ public class Employee {
         this.lastName = lastName;
         this.department = department;
         this.salary = salary;
+        id = idCounter++;
+    }
+
+    public int getIdCounter() {
+        return id++;
     }
 
     public String getFirstName() {
