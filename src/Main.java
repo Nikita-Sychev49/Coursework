@@ -79,5 +79,6 @@ public class Main {
         MaxSalary(repositoryOfEmployee);
         System.out.println("Среднее значение зарплат - " + AverageSalary(repositoryOfEmployee));
         PrintNamesEmpployees(repositoryOfEmployee);
+
     }
 }

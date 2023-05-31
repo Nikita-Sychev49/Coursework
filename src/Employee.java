@@ -57,4 +57,5 @@ public class Employee {
         return "Ф.И.О сотрудника - " + firstName + " " + middleName + " " + lastName + "\n" + "Отдел - " + department + "\n" +
                 "Заработная плата - " + salary;
     }
+
 }
